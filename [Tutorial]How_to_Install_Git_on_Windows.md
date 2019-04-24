@@ -1,4 +1,8 @@
-# 安装 Git (Windows 平台)
+# [Git 入门教程] 安装 Git (Windows 平台)
+
+by Grit, 4/23/2019
+
+
 
 首先下载 [Git for Windows](<https://gitforwindows.org/>)，安装过程中一路默认“下一步”就行。安装之后，就需要**打通本地电脑直连 GitHub 的任督二脉（账户层面），让 Git/GitHub 认出本地库是谁**啦！ 
 
@@ -49,13 +53,13 @@
 
   输入命令`eval $(ssh-agent -s)`，出现如下界面：
 
-  ![手动启用 ssh-agent](./img/手动启用 ssh-agent.png)
+  ![](./img/手动启用ssh-agent.png)
 
 - 添加 SSH key
 
   输入命令`ssh-add ~/.ssh/id_rsa`，回车后提示输入账号密码，验证通过后显示添加成功：
 
-  ![成功添加 SSH key 到 ssh-agent](./img/成功添加 SSH key 到 ssh-agent.png)
+  ![](./img/成功添加SSH-key到ssh-agent.png)
 
 #### 2.3 添加 SSH key 到 GitHub 账户
 
@@ -91,5 +95,7 @@
 
 
 
-相关链接：[[入门教程] 手把手教你玩 Git/GitHub]([Tutorial]Getting_Started_With_Git&GitHub.md)
+## 相关链接
+
+[[Git 入门教程] 手把手教你玩 Git/GitHub]([Tutorial]Getting_Started_With_Git&GitHub.md)
 
