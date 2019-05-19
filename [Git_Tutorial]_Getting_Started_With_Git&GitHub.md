@@ -6,6 +6,8 @@ by Grit, 4/23/2019
 
 
 
+[TOC]
+
 ## 场景
 
 所有的应用都是基于场景产生的，先让我们想象这么几个场景：
@@ -40,13 +42,13 @@ OK，如果要为上面的场景开发一款产品，让我们先琢磨一下这
 
 ## 2. 安装 Git 软件
 
-- [在 Windows 平台上安装 Git]([Tutorial]How_to_Install_Git_on_Windows.md)
+- [在 Windows 平台上安装 Git]([Git Tutorial] How to Install Git on Windows.md)
 
-- [在 Mac 平台上安装 Git](<https://www.atlassian.com/git/tutorials/install-git#mac-os-x>)
+- [在 Mac 平台上安装 Git](https://www.atlassian.com/git/tutorials/install-git#mac-os-x)
 
 - [在 Linux 平台上安装 Git](<https://www.atlassian.com/git/tutorials/install-git#linux>)
 
-  
+
 
 ## 3. 开始托管项目到 GitHub (GitHub Workflow)
 
@@ -66,7 +68,7 @@ OK，如果要为上面的场景开发一款产品，让我们先琢磨一下这
 
 - 登录 GitHub，点击右上角的 "New repo":
 
-![](img/新建repo.png)
+  ![](img/新建repo.png)
 
 - 在 GitHub 新建 repo，最后点击“Create repo"：
 
@@ -148,7 +150,7 @@ OK，如果要为上面的场景开发一款产品，让我们先琢磨一下这
 
   > - `git pull`: 把远程仓库抓取到本地，再将远端的 master 分支合并到本地的 master 上。所以当你之前 clone 下了代码，而其他开发者又更新了远端的代码后，可以通过 git pull 将本地更新到最新的版本。
 
-  
+
 
 ### 3.5 协作 (`git diff`)
 
@@ -160,7 +162,7 @@ OK，如果要为上面的场景开发一款产品，让我们先琢磨一下这
 
 
 
-### 3.6 合并 (`git merge` ) 
+### 3.6 合并 (`git merge` )
 
 - 审核结束后，如果OK，就接受其中一个 <branch> 的内容，先 checkout 到 master，再通过命令 `git merge <branch_name>`将 dev 合并到 master。
 
@@ -175,6 +177,8 @@ OK，如果要为上面的场景开发一款产品，让我们先琢磨一下这
 
 
 (完)
+
+
 
 ## 附表
 
@@ -191,4 +195,11 @@ OK，如果要为上面的场景开发一款产品，让我们先琢磨一下这
 - 这个网页将 UNIX 名称和 Git 命令整理在一起，而且进行了必要的注释，就是不像表格那样方便查询，可以作为补充学习资料：
 
   ​	[Basic Git Command Line Reference for Windows Users](<https://www.codeproject.com/Articles/457305/Basic-Git-Command-Line-Reference-for-Windows-Users>)
+
+
+
+## 相关链接
+
+- [[Git 入门教程] 手把手教你利用 Git/GitHub 进行写作]([Git_Tutorial]_A_Step_by_Step_to_Writing_on_Git&GitHub.md)
+- [[Git 入门教程] 手把手教你安装 Git (Windows 平台)]([Git_Tutorial]_How_to_Install_Git_on_Windows.md)
 

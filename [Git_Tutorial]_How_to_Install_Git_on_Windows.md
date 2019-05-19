@@ -1,8 +1,8 @@
-# [Git 入门教程] 安装 Git (Windows 平台)
+# [Git 入门教程] 手把手教你安装 Git (Windows 平台)
 
 by Grit, 4/23/2019
 
-
+[TOC]
 
 首先下载 [Git for Windows](<https://gitforwindows.org/>)，安装过程中一路默认“下一步”就行。安装之后，就需要**打通本地电脑直连 GitHub 的任督二脉（账户层面），让 Git/GitHub 认出本地库是谁**啦！ 
 
@@ -89,7 +89,7 @@ by Grit, 4/23/2019
 
     ![大功告成](img/大功告成.png)
 
-（完）
+(完)
 
 
 
@@ -97,5 +97,8 @@ by Grit, 4/23/2019
 
 ## 相关链接
 
-[[Git 入门教程] 手把手教你玩 Git/GitHub]([Tutorial]Getting_Started_With_Git&GitHub.md)
+- [[Git 入门教程] 手把手教你利用 Git/GitHub 进行写作]([Git_Tutorial]_A_Step_by_Step_to_Writing_on_Git&GitHub.md)
 
+- [[Git 入门教程] 手把手教你把玩 Git/GitHub]([Git_Tutorial]_Getting_Started_With_Git&GitHub.md)
+
+  
