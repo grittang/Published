@@ -2,8 +2,6 @@
 
 by Grit, 5/17/2019
 
-
-
 [TOC]
 
 ##  1. 写作动机
@@ -21,6 +19,7 @@ by Grit, 5/17/2019
   - 相当于多了一个云端同步的网盘——假设你设备损坏，或者因为其他事故丢失了文件，这时可以通过云端备份找回。
   - 支持版本管理——假设你的文章需要考虑多个方案多个版本，或者需要恢复到以前某个关键版本，这些都可以实现。
   - 支持多人协同——假设你需要和伙伴合作写一本书或一份研究报告，那么 Git/GitHub 提供的分支和评论等功能，都给为这些需求提供良好的支持。
+
 
 ## 2. 基本工作流
 
@@ -40,7 +39,8 @@ by Grit, 5/17/2019
 
 - 两条工作流
   - 以 Atom 为核心的写作工作流——因 [Atom]([https://atom.io](https://atom.io/)) 同时集成了 Markdown 和 Git/GitHub，大大提高了写作效率和使用门槛，所以**本文仅讨论这条工作流，即配置 Atom 工作环境 ——> Git 仓库初始化 ——> Markdown 写作 ——> Git 推送写作成果。**
-  - 其他 Markdown 编辑器 + Git/GitHub 的写作工作流——这条工作流的写作环境相对分散，导致效率和学习曲线相对陡峭。如果你想不方便使用 Atom，那么推荐将 [Typora](https://typora.io/) 作为首选 Markdown 编辑器，而 Git/GitHub 的基本操作可以参考本系列教程中的另一篇文章，即[《[Git 入门教程] 手把手教你玩转 Git/GitHub》]([Git Tutorial] Getting Started With Git & GitHub.md)。
+  - 其他 Markdown 编辑器 + Git/GitHub 的写作工作流——这条工作流的写作环境相对分散，导致效率和学习曲线相对陡峭。如果你想不方便使用 Atom，那么推荐将 [Typora](https://typora.io/) 作为首选 Markdown 编辑器，而 Git/GitHub 的基本操作可以参考本系列教程中的另一篇文章，即[《[Git 入门教程] 手把手教你玩转 Git/GitHub》]([Git_Tutorial]_Getting_Started_With_Git&GitHub.md)。
+
 
 ## 3. Atom 环境配置
 
@@ -48,16 +48,17 @@ by Grit, 5/17/2019
 
 - 创建 GitHub 账户
 
-​	如果不会，请依然参考[《[Git 入门教程] 手把手教你玩转 Git/GitHub》]([Git Tutorial] Getting Started With Git & GitHub.md)，不再废话啦。
+​	如果不会，请依然参考[《[Git 入门教程] 手把手教你玩转 Git/GitHub》]([Git_Tutorial]_Getting_Started_With_Git&GitHub.md)，不再废话啦。
 
-- 安装 Atom 
+- 安装 Atom
 
-​	下载链接（2019 年 5 月最新版）：https://pan.baidu.com/s/1KnywXVqOLOge4jUNTsY9ZQ 
-​	提取码：tf04 
+​	下载链接（2019 年 5 月最新版）：https://pan.baidu.com/s/1KnywXVqOLOge4jUNTsY9ZQ
+​	提取码：tf04
 
 - 连接 GitHub 账户
 
 ​	完成安装后，先在网页上登录 GitHub 账户。在软件右边的 GitHub 面板点击”连接“按钮，这时提示需要 GitHub 授权密钥，随之跳转到 GitHub 生成密钥，复制密钥到 Atom 即连接成功。此时宣告 Atom 环境配置妥当。
+
 
 ## 4. Git 仓库初始化
 
@@ -85,6 +86,7 @@ by Grit, 5/17/2019
 
   -  另外：如果你之前用 Git 客户端 clone repo 到本地，那么利用 Atom 的“添加项目文件夹”命令（快键键 Ctrl + Shift + A），将已经克隆到本地的 repo 添加进 Atom。这样也可以在 Atom 软件上完成了仓库的初始化。
 
+
 ## 5. Markdown 写作
 
 从这里开始就可以准备下锅啦，正式开动写作大脑吧！
@@ -98,6 +100,7 @@ by Grit, 5/17/2019
 
 如果在写作的过程中想要随时预览，可利用快捷键`Ctrl + Shift + M`进行切换；如果不能预览文章，那么需要安装 [markdown-preview](https://atom.io/packages/markdown-preview) 这个插件。
 
+
 ## 6. Git 推送写作成果
 
 接下来就是收汁出锅啦！通过依次点击箭头上的几个按钮来推送更新内容，这几个按钮分别对应 `git add`, `git commit`和 `git push` 这三个命令。
@@ -105,21 +108,17 @@ by Grit, 5/17/2019
 ![](img/Atom_Git_tools.jpg)
 
 
-
 ## 7. 常规流程
 
 平时炒菜的时候，当然不需要上面那么多复杂的步骤，因为在完成所有的初始化和预处理环节之后，你已经为新家打造出了一个完美厨房。每次当你想要下厨（写作）了，只要你准备好新鲜食材（写作素材），就只管进厨房一展身手好了！**因此，日常创作只需要 “4-5-6” 这三部曲就够啦，如果你把同类的文章放到一个仓库里边，那么步骤 4 也可以免了。**
 
-BTW. 这篇文章就是“现身说法”，如果你有兴趣，可以将本文下载到本地，当然外部引用的图片也要下载，并且存放在 `img`文件夹中。
-
+BTW. 这篇文章本身就是“现身说法”，是文中写作流程的时间产物。如果你有兴趣，可以将本文下载到本地，当然外部引用的图片也要下载，并且存放在 `img`文件夹中。
 
 
 (完)
-
 
 
 ## 相关链接
 
 - [[Git 入门教程] 手把手教你把玩 Git/GitHub]([Git_Tutorial]_Getting_Started_With_Git&GitHub.md)
 - [[Git 入门教程] 手把手教你安装 Git (Windows 平台)]([Git_Tutorial]_How_to_Install_Git_on_Windows.md)
-
