@@ -91,7 +91,7 @@ by Grit, 5/17/2019
 
 从这里开始就可以准备下锅啦，正式开动写作大脑吧！
 
-可能有小伙伴之前没用过 Markdown，没关系，学习门槛极低，对着这篇 [Markdown 中文教程](https://www.zybuluo.com/mdeditor)，边看边写，即刻上手！或者像查字典一样查找这个表格 [Cheat Sheet: A quick reference to the Markdown syntax.](A quick reference to the Markdown syntax.)
+可能有小伙伴之前没用过 Markdown，没关系，学习门槛极低，对着这篇 [Markdown 中文教程](https://www.zybuluo.com/mdeditor)，边看边写，即刻上手！或者像查字典一样查找这个表格 [Cheat Sheet: A quick reference to the Markdown syntax.](https://www.markdownguide.org/cheat-sheet/)
 
 > 特别提醒，在 Markdown 文件中插入外部文件或图片时，千万注意两点：
 >
